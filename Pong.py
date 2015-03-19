@@ -34,8 +34,8 @@ def spawn_ball(direction):
 def paddle2():
     global paddle2_vel,paddle2_pos
     paddle2_vel = 0
-    level = {"Easy" : 5, "Medium" : 10, "Hard" : 20}
-    paddle2_vel += (ball_pos[1]-paddle2_pos)*(1/(WIDTH-ball_pos[0]))*50
+    level = {"Easy" : 2, "Medium" : 3, "Hard" : 4}
+    paddle2_vel += (ball_pos[1]-paddle2_pos)*(1/(WIDTH-ball_pos[0]))*level["Easy"]
     
             
 # define event handlers
