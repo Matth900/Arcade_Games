@@ -1,2 +1,2 @@
 # Arcade Games
-## Copy-Past @ codeskulptor.org
+## Copy-Paste @ codeskulptor.org
